@@ -1,2 +1,2 @@
 #!/bin/bash
-/etc/init.d/nginx start
+sudo systemctl start nginx
