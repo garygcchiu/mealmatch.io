@@ -19,6 +19,11 @@ phases:
         commands:
             - npm run export
 
+    post_build:
+        commands:
+            - cp -R scripts out/scripts
+            - cp appspec.yml out/appspec.yml
+
 artifacts:
     files:
         - '**/*'
