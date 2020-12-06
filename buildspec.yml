@@ -1,0 +1,25 @@
+version: 0.2
+
+env:
+    variables:
+        PROD_S3_BUCKET: 'mealmatch2.io'
+        SRC_FOLDER: 'out'
+
+phases:
+    install:
+        runtime-versions:
+            nodejs: 12
+
+    pre_build:
+        commands:
+            - npm install
+            - aws --version
+
+    build:
+        commands:
+            - npm run export
+
+artifacts:
+    files:
+        - '**/*'
+    base-directory: out
