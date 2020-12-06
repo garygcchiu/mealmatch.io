@@ -6,14 +6,15 @@ files:
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
+    - location: scripts/cleanup.sh
       timeout: 300
       runas: root
   ApplicationStart:
     - location: scripts/start-server.sh
       timeout: 300
-      runas: root
+      runas: ec2-user
   ApplicationStop:
     - location: scripts/stop-server.sh
       timeout: 300
-      runas: root
+      runas: ec2-user
 
