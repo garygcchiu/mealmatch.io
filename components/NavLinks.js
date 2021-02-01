@@ -30,30 +30,6 @@ const NavLinks = () => {
       <li>
         <ScrollLink
           activeClass="current"
-          to="pricing"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Pricing
-        </ScrollLink>
-      </li>
-      <li>
-        <ScrollLink
-          activeClass="current"
-          to="team"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Team
-        </ScrollLink>
-      </li>
-      <li>
-        <ScrollLink
-          activeClass="current"
           to="screens"
           spy={true}
           smooth={true}
@@ -64,24 +40,16 @@ const NavLinks = () => {
         </ScrollLink>
       </li>
       <li className="dropdown">
-        <Link href="/blog">
-          <>
-            <a>News</a>
-            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
-          </>
-        </Link>
-        <ul className={dropdownStatus === true ? "active" : null}>
-          <li>
-            <Link href="/blog">
-              <a>News</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog-post">
-              <a>News Details</a>
-            </Link>
-          </li>
-        </ul>
+        <ScrollLink
+            activeClass="current"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+        >
+          About
+        </ScrollLink>
       </li>
     </ul>
   );
