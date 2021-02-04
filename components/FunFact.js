@@ -44,7 +44,7 @@ const FunFact = () => {
                                     <CountUp
                                         end={counter.startCounter ? 105 : 0}
                                         formattingFn={(n) =>
-                                            n.toLocaleString() + 'M+'
+                                            `${n.toLocaleString()  }M+`
                                         }
                                     />
                                 </VisibilitySensor>

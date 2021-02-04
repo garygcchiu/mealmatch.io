@@ -10,15 +10,13 @@ const CTAThree = () => {
             <img src={Cta3Shape1} className="cta-three__bg-1" alt="" />
             <img src={Cta3Shape2} className="cta-three__bg-2" alt="" />
             <Container className="text-center">
-                <h3>
-                    Download Today and <br /> Start Eating Instead of Thinking!
-                </h3>
+                <h3>Stop Thinking and Start Eating!</h3>
                 <div className="cta-three__btn-wrap">
-                    {/*<a href="#" className="cta-three__btn">*/}
-                    {/*    <i className="fa fa-play" />*/}
-                    {/*    <span>Get in</span>*/}
-                    {/*    <b>Google Play</b>*/}
-                    {/*</a>*/}
+                    {/* <a href="#" className="cta-three__btn"> */}
+                    {/*    <i className="fa fa-play" /> */}
+                    {/*    <span>Get in</span> */}
+                    {/*    <b>Google Play</b> */}
+                    {/* </a> */}
                     <a href="#" className="cta-three__btn">
                         <i className="fab fa-apple" />
                         <span>Coming soon</span>

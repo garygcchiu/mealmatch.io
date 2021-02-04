@@ -23,15 +23,15 @@ const Banner = () => {
                 style={{ backgroundImage: `url(${BannerBG})` }}
             ></div>
             <div className="container">
-                {/*<ModalVideo*/}
-                {/*  channel="youtube"*/}
-                {/*  isOpen={open.isOpen}*/}
-                {/*  videoId="Kl5B6MBAntI"*/}
-                {/*  onClose={() => setOpen({ isOpen: false })}*/}
-                {/*/>*/}
-                {/*<div onClick={openModal} className="banner-one__video video-popup">*/}
-                {/*  <i className="fa fa-play"></i>*/}
-                {/*</div>*/}
+                {/* <ModalVideo */}
+                {/*  channel="youtube" */}
+                {/*  isOpen={open.isOpen} */}
+                {/*  videoId="Kl5B6MBAntI" */}
+                {/*  onClose={() => setOpen({ isOpen: false })} */}
+                {/* /> */}
+                {/* <div onClick={openModal} className="banner-one__video video-popup"> */}
+                {/*  <i className="fa fa-play"></i> */}
+                {/* </div> */}
                 <div className="banner-one__moc">
                     <img
                         src={BannerMoc}
@@ -43,15 +43,15 @@ const Banner = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="banner-one__content">
-                            {/*<form*/}
-                            {/*  className="banner-one__mc-form mc-form"*/}
-                            {/*  data-url="MAILCHIMP__POPUP__FORM__URL"*/}
-                            {/*>*/}
-                            {/*  <input type="text" name="email" placeholder="Email address" />*/}
-                            {/*  <button type="submit" className="thm-btn banner-one__mc-btn">*/}
-                            {/*    <span>Free Trial</span>*/}
-                            {/*  </button>*/}
-                            {/*</form>*/}
+                            {/* <form */}
+                            {/*  className="banner-one__mc-form mc-form" */}
+                            {/*  data-url="MAILCHIMP__POPUP__FORM__URL" */}
+                            {/* > */}
+                            {/*  <input type="text" name="email" placeholder="Email address" /> */}
+                            {/*  <button type="submit" className="thm-btn banner-one__mc-btn"> */}
+                            {/*    <span>Free Trial</span> */}
+                            {/*  </button> */}
+                            {/* </form> */}
                             <div className="mc-form__response"></div>
                             <h3>
                                 The Answer To <br />

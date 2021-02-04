@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FooterLogo from '../assets/images/logo-1-1.png';
+import FooterLogo from '../assets/images/logo-banner.png';
 
 const getCurrentYear = () => {
     return new Date().getFullYear();
@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="container wow fadeInUp">
                     <div className="inner-container">
                         <div className="mailchimp-one__icon">
-                            <i className="apton-icon-mail"></i>
+                            <i className="apton-icon-mail" />
                         </div>
                         <form action="#" className="mailchimp-one__form">
                             <input
@@ -81,40 +81,40 @@ const Footer = () => {
                                             Links
                                         </h3>
                                         <ul className="list-unstyled footer-widget__links-list">
-                                            {/*<li>*/}
-                                            {/*    <a href="#">Help</a>*/}
-                                            {/*</li>*/}
+                                            {/* <li> */}
+                                            {/*    <a href="#">Help</a> */}
+                                            {/* </li> */}
                                             <li>
                                                 <a href="#">Privacy Policy</a>
                                             </li>
                                             <li>
                                                 <a href="#">Terms of Use</a>
                                             </li>
-                                            {/*<li>*/}
-                                            {/*    <a href="#">Services</a>*/}
-                                            {/*</li>*/}
+                                            {/* <li> */}
+                                            {/*    <a href="#">Services</a> */}
+                                            {/* </li> */}
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            {/*<div className="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center">*/}
-                            {/*    <div className="footer-widget">*/}
-                            {/*        <div className="footer-widget__social">*/}
-                            {/*            <a href="#">*/}
-                            {/*                <i className="fab fa-facebook-square"></i>*/}
-                            {/*            </a>*/}
-                            {/*            <a href="#">*/}
-                            {/*                <i className="fab fa-twitter"></i>*/}
-                            {/*            </a>*/}
-                            {/*            <a href="#">*/}
-                            {/*                <i className="fab fa-instagram"></i>*/}
-                            {/*            </a>*/}
-                            {/*            <a href="#">*/}
-                            {/*                <i className="fab fa-pinterest-p"></i>*/}
-                            {/*            </a>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
+                            {/* <div className="col-lg-3 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center"> */}
+                            {/*    <div className="footer-widget"> */}
+                            {/*        <div className="footer-widget__social"> */}
+                            {/*            <a href="#"> */}
+                            {/*                <i className="fab fa-facebook-square"></i> */}
+                            {/*            </a> */}
+                            {/*            <a href="#"> */}
+                            {/*                <i className="fab fa-twitter"></i> */}
+                            {/*            </a> */}
+                            {/*            <a href="#"> */}
+                            {/*                <i className="fab fa-instagram"></i> */}
+                            {/*            </a> */}
+                            {/*            <a href="#"> */}
+                            {/*                <i className="fab fa-pinterest-p"></i> */}
+                            {/*            </a> */}
+                            {/*        </div> */}
+                            {/*    </div> */}
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

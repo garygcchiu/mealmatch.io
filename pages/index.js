@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../components/Layout';
 import Preloader from '../components/Preloader';
 import MobileMenu from '../components/MobileMenu';
@@ -31,9 +32,9 @@ const HomePage = () => (
             <MobileMenu />
             <Banner />
             <Services />
-            <CTAOne />
+            {/* <CTAOne /> */}
             <FunFact />
-            {/*<CTATwo />*/}
+            {/* <CTATwo /> */}
             <AppScreen />
             <Contact />
             <CTAThree />

@@ -8,15 +8,18 @@ const Services = () => {
                 <BlockTitle
                     textAlign="center"
                     paraText=""
-                    titleText={`Features`}
+                    titleText={'Features'}
                 />
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
-                        <div className="service-one__single">
+                        <div
+                            className="service-one__single wow fadeInUp"
+                            data-wow-duration="1500ms"
+                        >
                             <div className="service-one__inner">
-                                {/*<div className="service-one__circle"></div>*/}
+                                <div className="service-one__circle" />
                                 <div className="service-one__icon">
-                                    <i className="far fa-bread-loaf"></i>
+                                    <i className="far fa-bread-loaf" />
                                 </div>
                                 <h3>Hundreds of Categories</h3>
                                 <p>
@@ -27,9 +30,12 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <div className="service-one__single">
+                        <div
+                            className="service-one__single wow fadeInUp"
+                            data-wow-duration="1500ms"
+                        >
                             <div className="service-one__inner">
-                                <div className="service-one__circle"></div>
+                                <div className="service-one__circle" />
                                 <div className="service-one__icon">
                                     <i className="far fa-user-friends" />
                                 </div>
@@ -44,11 +50,14 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <div className="service-one__single">
+                        <div
+                            className="service-one__single wow fadeInUp"
+                            data-wow-duration="1500ms"
+                        >
                             <div className="service-one__inner">
-                                <div className="service-one__circle"></div>
+                                <div className="service-one__circle" />
                                 <div className="service-one__icon">
-                                    <i className="apton-icon-development1"></i>
+                                    <i className="apton-icon-development1" />
                                 </div>
                                 <h3>Receive Nearby Restaurants</h3>
                                 <p>
@@ -58,11 +67,14 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <div className="service-one__single">
+                        <div
+                            className="service-one__single wow fadeInUp"
+                            data-wow-duration="1500ms"
+                        >
                             <div className="service-one__inner">
-                                <div className="service-one__circle"></div>
+                                <div className="service-one__circle" />
                                 <div className="service-one__icon">
-                                    <i className="far fa-dollar-sign"></i>
+                                    <i className="far fa-dollar-sign" />
                                 </div>
                                 <h3>Completely Free</h3>
                                 <p>
