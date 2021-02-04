@@ -1,14 +1,14 @@
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
-import Preloader from "../components/Preloader";
-import Layout from "../components/Layout";
-import Header from "../components/Header";
-import MobileMenu from "../components/MobileMenu";
-import PageHeader from "../components/PageHeader";
-import Footer from "../components/Footer";
-import BlogSidebar from "../components/BlogSidebar";
-import BlogSingle from "../components/BlogSingle";
+import { Container , Row , Col } from 'react-bootstrap';
+
+
+import Preloader from '../components/Preloader';
+import Layout from '../components/Layout';
+import Header from '../components/Header';
+import MobileMenu from '../components/MobileMenu';
+import PageHeader from '../components/PageHeader';
+import Footer from '../components/Footer';
+import BlogSidebar from '../components/BlogSidebar';
+import BlogSingle from '../components/BlogSingle';
 
 const BlogPostPage = () => (
   <Layout pageTitle="Apiton | Blog Post Page">

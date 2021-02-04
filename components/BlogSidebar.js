@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import SidebarPostImage1 from '../assets/images/blog/lp-1-1.jpg';
 import SidebarPostImage2 from '../assets/images/blog/lp-1-2.jpg';

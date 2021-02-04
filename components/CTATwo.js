@@ -1,9 +1,9 @@
-import React from "react";
-import BlockTitle from "./BlockTitle";
+import React from 'react';
+import BlockTitle from './BlockTitle';
 
-import CTAImage1 from "../assets/images/resources/cta-2-moc-1.png";
-import CTAImage2 from "../assets/images/resources/cta-2-moc-2.png";
-import CTAImage3 from "../assets/images/resources/cta-2-moc-3.png";
+import CTAImage1 from '../assets/images/resources/cta-2-moc-1.png';
+import CTAImage2 from '../assets/images/resources/cta-2-moc-2.png';
+import CTAImage3 from '../assets/images/resources/cta-2-moc-3.png';
 
 const CTATwo = () => {
   return (
@@ -15,7 +15,7 @@ const CTATwo = () => {
               <BlockTitle
                 textAlign="left"
                 paraText="Feature List"
-                titleText={`Appton Providing You \n Best Features`}
+                titleText={'Appton Providing You \n Best Features'}
               />
               <div className="cta-two__icon-wrap">
                 <div className="cta-two__icon-single">

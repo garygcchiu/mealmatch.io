@@ -5,7 +5,7 @@ import ContactImage from '../assets/images/resources/contact-1-1.jpg';
 
 const Contact = () => {
     return (
-        <section className="contact-one">
+        <section className="contact-one" id={'contact'}>
             <img
                 src={ContactBgShape}
                 className="contact-one__bg-shape-1"
@@ -18,7 +18,7 @@ const Contact = () => {
                             <BlockTitle
                                 textAlign="left"
                                 paraText="Contact Us"
-                                titleText={`Have Question? \nWrite a Message:`}
+                                titleText={'Have Question? \nWrite a Message:'}
                             />
                             <div className="row">
                                 <div className="col-lg-6">

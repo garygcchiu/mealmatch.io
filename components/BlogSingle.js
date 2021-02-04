@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import BlogDetailsImage from '../assets/images/blog/blog-d-1-1.jpg';
 import AuthorImage from '../assets/images/blog/author-1-1.jpg';
@@ -53,7 +53,7 @@ const BlogSingle = () => {
         </div>
         <div className="blog-details__meta">
           <div className="blog-details__tags">
-            <span>Tags: </span> <a href="#">Business,</a>{" "}
+            <span>Tags: </span> <a href="#">Business,</a>{' '}
             <a href="#">Agency,</a> <a href="#">Technology</a>
           </div>
           <div className="blog-details__share">

@@ -8,8 +8,8 @@ import CtaMoc1 from '../assets/images/resources/cta-1-moc-1.png';
 const CTAOne = () => {
     return (
         <section className="cta-one">
-            {/*<img src={CtaShape1} className="cta-one__bg-shape-1" alt="" />*/}
-            {/*<img src={CtaShape2} className="cta-one__bg-shape-2" alt="" />*/}
+            {/* <img src={CtaShape1} className="cta-one__bg-shape-1" alt="" /> */}
+            {/* <img src={CtaShape2} className="cta-one__bg-shape-2" alt="" /> */}
             <div className="container">
                 <div
                     className="cta-one__moc wow fadeInLeft"
@@ -23,7 +23,9 @@ const CTAOne = () => {
                             <BlockTitle
                                 textAlign="left"
                                 paraText="Best Application"
-                                titleText={`Powerful Application for \n Your Projects`}
+                                titleText={
+                                    'Powerful Application for \n Your Projects'
+                                }
                             />
                             <div className="cta-one__text">
                                 <p>
@@ -34,16 +36,16 @@ const CTAOne = () => {
                             </div>
                             <ul className="list-unstyled cta-one__list">
                                 <li>
-                                    <i className="fa fa-check-circle"></i>
+                                    <i className="fa fa-check-circle" />
                                     Refresing to get such a personal touch.
                                 </li>
                                 <li>
-                                    <i className="fa fa-check-circle"></i>
+                                    <i className="fa fa-check-circle" />
                                     Duis aute irure dolor in reprehenderit in
                                     voluptate.
                                 </li>
                                 <li>
-                                    <i className="fa fa-check-circle"></i>
+                                    <i className="fa fa-check-circle" />
                                     Velit esse cillum dolore eu fugiat nulla
                                     pariatur.
                                 </li>

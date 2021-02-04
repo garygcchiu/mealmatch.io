@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import BlockTitle from "./BlockTitle";
-import BlogPost from "./BlogPost";
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import BlockTitle from './BlockTitle';
+import BlogPost from './BlogPost';
 
-import BlogImage1 from "../assets/images/blog/blog-1-1.jpg";
-import BlogImage2 from "../assets/images/blog/blog-1-2.jpg";
-import BlogImage3 from "../assets/images/blog/blog-1-3.jpg";
+import BlogImage1 from '../assets/images/blog/blog-1-1.jpg';
+import BlogImage2 from '../assets/images/blog/blog-1-2.jpg';
+import BlogImage3 from '../assets/images/blog/blog-1-3.jpg';
 
 const BlogHome = () => {
   return (
@@ -14,7 +14,7 @@ const BlogHome = () => {
         <BlockTitle
           textAlign="center"
           paraText="Latest News & Articles"
-          titleText={`Checkout What’s Going \n on in Our Blog`}
+          titleText={'Checkout What’s Going \n on in Our Blog'}
         />
         <Row>
           <BlogPost

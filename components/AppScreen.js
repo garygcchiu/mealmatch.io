@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import SwiperCore, { Pagination } from 'swiper';
-SwiperCore.use([Pagination]);
 import Swiper from 'react-id-swiper';
 import BlockTitle from './BlockTitle';
 
@@ -10,6 +9,8 @@ import appImage2 from '../assets/images/app-shots/app-shot-n-1-2.png';
 import appImage3 from '../assets/images/app-shots/app-shot-n-1-3.png';
 import appImage4 from '../assets/images/app-shots/app-shot-n-1-4.png';
 import appImage5 from '../assets/images/app-shots/app-shot-n-1-5.png';
+
+SwiperCore.use([Pagination]);
 
 const AppScreen = (props) => {
     const params = {
@@ -52,7 +53,7 @@ const AppScreen = (props) => {
                 <BlockTitle
                     textAlign="center"
                     paraText="Screenshots"
-                    titleText={`When it Comes to Food, Looks Matter`}
+                    titleText={'When it Comes to Food, Looks Matter'}
                 />
                 <div className="app-shot-one__carousel">
                     <Swiper {...params}>

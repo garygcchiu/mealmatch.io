@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
-import BlockTitle from "./BlockTitle";
-import videoBG from "../assets/images/resources/video-bg-1-1.jpg";
+import React, { useState } from 'react';
+import ModalVideo from 'react-modal-video';
+import BlockTitle from './BlockTitle';
+import videoBG from '../assets/images/resources/video-bg-1-1.jpg';
 
 const VideoOne = () => {
   const [open, setOpen] = useState({
@@ -26,7 +26,7 @@ const VideoOne = () => {
           <BlockTitle
             textAlign="left"
             paraText="Video Tutorial"
-            titleText={`Watch Now \n Our Video \n Tutorial`}
+            titleText={'Watch Now \n Our Video \n Tutorial'}
           />
         </div>
         <ModalVideo

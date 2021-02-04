@@ -1,8 +1,8 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import BlockTitle from "./BlockTitle";
-import AccordionItem from "./AccordionItem";
-import faqBG from "../assets/images/shapes/faq-bg-1-1.png";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import BlockTitle from './BlockTitle';
+import AccordionItem from './AccordionItem';
+import faqBG from '../assets/images/shapes/faq-bg-1-1.png';
 
 const FAQ = (props) => {
   return (
@@ -12,7 +12,7 @@ const FAQ = (props) => {
         <BlockTitle
           textAlign="center"
           paraText="Frequently Asked Questions"
-          titleText={`Want to Ask Something \n From Appton?`}
+          titleText={'Want to Ask Something \n From Appton?'}
         />
         <div className="accrodion-grp faq-accrodion">
           <AccordionItem

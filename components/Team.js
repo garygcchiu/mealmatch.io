@@ -1,12 +1,12 @@
-import React from "react";
-import BlockTitle from "./BlockTitle";
+import React from 'react';
+import BlockTitle from './BlockTitle';
 
-import TeamShape1 from "../assets/images/shapes/team-1-bg-1-1.png";
-import TeamShape2 from "../assets/images/shapes/team-1-bg-1-2.png";
-import TeamMemeber1 from "../assets/images/team/team-1-1.jpg";
-import TeamMemeber2 from "../assets/images/team/team-1-2.jpg";
-import TeamMemeber3 from "../assets/images/team/team-1-3.jpg";
-import TeamMemeber4 from "../assets/images/team/team-1-4.jpg";
+import TeamShape1 from '../assets/images/shapes/team-1-bg-1-1.png';
+import TeamShape2 from '../assets/images/shapes/team-1-bg-1-2.png';
+import TeamMemeber1 from '../assets/images/team/team-1-1.jpg';
+import TeamMemeber2 from '../assets/images/team/team-1-2.jpg';
+import TeamMemeber3 from '../assets/images/team/team-1-3.jpg';
+import TeamMemeber4 from '../assets/images/team/team-1-4.jpg';
 
 const Team = () => {
   return (
@@ -17,7 +17,7 @@ const Team = () => {
         <BlockTitle
           textAlign="center"
           paraText="Expert People"
-          titleText={`Meet Our Professional \n Team Members`}
+          titleText={'Meet Our Professional \n Team Members'}
         />
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12">

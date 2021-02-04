@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import BlockTitle from "./BlockTitle";
+import React, { useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import BlockTitle from './BlockTitle';
 
 const Pricing = (props) => {
   const [plan, setPlan] = useState(false);
@@ -10,14 +10,14 @@ const Pricing = (props) => {
         <BlockTitle
           textAlign="center"
           paraText="Pricing Tables"
-          titleText={`Choose Pricing Plans Which \n Suits Your Needs`}
+          titleText={'Choose Pricing Plans Which \n Suits Your Needs'}
         />
         <ul
           className="list-inline text-center switch-toggler-list"
           role="tablist"
           id="switch-toggle-tab"
         >
-          <li className={`month ${plan === false ? "active" : ""}`}>
+          <li className={`month ${plan === false ? 'active' : ''}`}>
             <a
               href="#"
               onClick={(e) => {
@@ -34,12 +34,12 @@ const Pricing = (props) => {
                 e.preventDefault();
                 setPlan(!plan);
               }}
-              className={`switch ${plan === true ? "off" : "on"}`}
+              className={`switch ${plan === true ? 'off' : 'on'}`}
             >
               <span className="slider round"></span>
             </label>
           </li>
-          <li className={`year ${plan === true ? "active" : ""}`}>
+          <li className={`year ${plan === true ? 'active' : ''}`}>
             <a
               href="#"
               onClick={(e) => {

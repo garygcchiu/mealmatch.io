@@ -1,15 +1,16 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import SwiperCore, { Pagination, Thumbs, Controller } from "swiper";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import SwiperCore, { Pagination, Thumbs, Controller } from 'swiper';
+import Swiper from 'react-id-swiper';
+import BlockTitle from './BlockTitle';
+
+import TestiQoute from '../assets/images/shapes/testi-qoute-1-1.png';
+
+import TestiImageOne from '../assets/images/resources/testi-1-1.jpg';
+import TestiImageTwo from '../assets/images/resources/testi-1-2.jpg';
+import TestiImageThree from '../assets/images/resources/testi-1-3.jpg';
+
 SwiperCore.use([Pagination, Thumbs, Controller]);
-import Swiper from "react-id-swiper";
-import BlockTitle from "./BlockTitle";
-
-import TestiQoute from "../assets/images/shapes/testi-qoute-1-1.png";
-
-import TestiImageOne from "../assets/images/resources/testi-1-1.jpg";
-import TestiImageTwo from "../assets/images/resources/testi-1-2.jpg";
-import TestiImageThree from "../assets/images/resources/testi-1-3.jpg";
 
 const Testimonials = (props) => {
   const paramsTwo = {
@@ -22,7 +23,7 @@ const Testimonials = (props) => {
       disableOnInteraction: false,
     },
     pagination: {
-      el: ".testimonials-one__pagination-wrap .swiper-pagination",
+      el: '.testimonials-one__pagination-wrap .swiper-pagination',
       clickable: true,
     },
   };
@@ -30,7 +31,7 @@ const Testimonials = (props) => {
   const paramsOne = {
     slidesPerView: 1,
     spaceBetween: 0,
-    effect: "fade",
+    effect: 'fade',
     speed: 1400,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
@@ -78,7 +79,7 @@ const Testimonials = (props) => {
               <BlockTitle
                 textAlign="left"
                 paraText="Our Testimonials"
-                titleText={`What Our Customers Are \n Talking About`}
+                titleText={'What Our Customers Are \n Talking About'}
               />
               <div className="testimonials-one__carousel">
                 <Swiper {...paramsTwo}>

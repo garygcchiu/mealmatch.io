@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 import { Col } from 'react-bootstrap';
 
 const BlogPost = (props) => {

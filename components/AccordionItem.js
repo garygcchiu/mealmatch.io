@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const AccordionItem = (props) => {
   const [status, setStatus] = useState(props.status);
@@ -6,7 +6,7 @@ const AccordionItem = (props) => {
     setStatus(!status);
   };
   return (
-    <div className={`accrodion ${status === true ? "active" : ""}`}>
+    <div className={`accrodion ${status === true ? 'active' : ''}`}>
       <div className="accrodion-inner">
         <div className="accrodion-title" onClick={handleClick}>
           <h4>{props.title}</h4>

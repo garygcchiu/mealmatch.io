@@ -1,20 +1,20 @@
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import Layout from "../components/Layout";
-import Preloader from "../components/Preloader";
-import MobileMenu from "../components/MobileMenu";
-import Header from "../components/Header";
-import PageHeader from "../components/PageHeader";
-import BlogPost from "../components/BlogPost";
-import PostPagination from "../components/PostPagination";
-import Footer from "../components/Footer";
+import { Container , Row } from 'react-bootstrap';
 
-import BlogImage1 from "../assets/images/blog/blog-1-1.jpg";
-import BlogImage2 from "../assets/images/blog/blog-1-2.jpg";
-import BlogImage3 from "../assets/images/blog/blog-1-3.jpg";
-import BlogImage4 from "../assets/images/blog/blog-1-4.jpg";
-import BlogImage5 from "../assets/images/blog/blog-1-5.jpg";
-import BlogImage6 from "../assets/images/blog/blog-1-6.jpg";
+import Layout from '../components/Layout';
+import Preloader from '../components/Preloader';
+import MobileMenu from '../components/MobileMenu';
+import Header from '../components/Header';
+import PageHeader from '../components/PageHeader';
+import BlogPost from '../components/BlogPost';
+import PostPagination from '../components/PostPagination';
+import Footer from '../components/Footer';
+
+import BlogImage1 from '../assets/images/blog/blog-1-1.jpg';
+import BlogImage2 from '../assets/images/blog/blog-1-2.jpg';
+import BlogImage3 from '../assets/images/blog/blog-1-3.jpg';
+import BlogImage4 from '../assets/images/blog/blog-1-4.jpg';
+import BlogImage5 from '../assets/images/blog/blog-1-5.jpg';
+import BlogImage6 from '../assets/images/blog/blog-1-6.jpg';
 
 const BlogPage = () => (
   <Layout pageTitle="Apiton | Blog Page">
