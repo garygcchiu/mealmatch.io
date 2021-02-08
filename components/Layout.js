@@ -11,9 +11,9 @@ const Layout = (props) => {
     const [scrollTop, setScrollTop] = useState(false);
 
     const handleScrollTop = () => {
-        if (window.scrollY > 70) {
+        if (window.scrollY > 100) {
             setScrollTop(true);
-        } else if (window.scrollY < 70) {
+        } else if (window.scrollY < 100) {
             setScrollTop(false);
         }
     };
@@ -24,6 +24,7 @@ const Layout = (props) => {
             window.removeEventListener('scroll', handleScrollTop);
         };
     });
+
     return (
         <div>
             <Head>
@@ -60,16 +61,16 @@ const Layout = (props) => {
 
             <div className="page-wrapper">{props.children}</div>
 
-            {scrollTop === true ? (
+            {scrollTop && (
                 <ScrollLink
                     to="home"
                     smooth={true}
                     duration={500}
-                    className="scroll-to-top"
+                    className={'scroll-to-top'}
                 >
-                    <i className="fa fa-angle-up"></i>
+                    <i className="fa fa-angle-up" />
                 </ScrollLink>
-            ) : null}
+            )}
         </div>
     );
 };

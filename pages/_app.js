@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/apton-icons.css';
 import '../assets/css/animate.min.css';
@@ -11,6 +13,7 @@ import 'react-modal-video/css/modal-video.min.css';
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
     useEffect(() => {
+        // init wowjs animations
         if (typeof window !== 'undefined') {
             window.WOW = require('wow.js');
         }
@@ -20,6 +23,10 @@ export default function MyApp({ Component, pageProps }) {
             },
             []
         ).init();
+
+        // init react google-analytics
+        ReactGA.initialize('UA-189001941-2');
+        ReactGA.pageview('/');
     });
     return <Component {...pageProps} />;
 }

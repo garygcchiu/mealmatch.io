@@ -1,6 +1,7 @@
 import React from 'react';
 
 import FooterLogo from '../assets/images/logo-banner.png';
+import { Link as ScrollLink } from 'react-scroll';
 
 const getCurrentYear = () => {
     return new Date().getFullYear();
@@ -15,10 +16,13 @@ const Footer = () => {
                         <div className="mailchimp-one__icon">
                             <i className="apton-icon-mail" />
                         </div>
-                        <form action="#" className="mailchimp-one__form">
+                        <form
+                            action="mailto:mealmatchio@gmail.com"
+                            className="mailchimp-one__form"
+                        >
                             <input
                                 type="text"
-                                placeholder="Enter your email address"
+                                placeholder="Signup for the latest news and updates"
                                 name="email"
                             />
                             <button
@@ -68,9 +72,12 @@ const Footer = () => {
                                             Explore
                                         </h3>
                                         <ul className="list-unstyled footer-widget__links-list">
-                                            <li>
-                                                <a href="#">Features</a>
-                                            </li>
+                                            <ScrollLink
+                                                to="home"
+                                                smooth={true}
+                                                duration={500}
+                                                className="text"
+                                            />
                                             <li>
                                                 <a href="#">Download</a>
                                             </li>

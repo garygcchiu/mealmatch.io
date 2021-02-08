@@ -59,15 +59,15 @@ const HeaderHome = (props) => {
                         <img src={LogoImage} width="150" alt="" />
                     </a>
                     <span className="side-menu__toggler">
-                        <i className="fa fa-bars"></i>
+                        <i className="fa fa-bars" />
                     </span>
                 </div>
                 <div className="main-nav__main-navigation">
                     <NavLinks />
                 </div>
                 <div className="main-nav__right">
-                    <a href="#" className={`thm-btn ${props.btnClass}`}>
-                        <span>Download App</span>
+                    <a href="" className={`thm-btn ${props.btnClass}`}>
+                        <span>Coming Soon</span>
                     </a>
                 </div>
             </div>

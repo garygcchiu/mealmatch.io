@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import ModalVideo from 'react-modal-video';
+// import ModalVideo from 'react-modal-video';
 
 import BannerShape from '../assets/images/shapes/banner-shape-1-1.png';
 import BannerBG from '../assets/images/resources/banner-image-1-1.jpg';
-import BannerMoc from '../assets/images/resources/banner-moc-1-1.png';
+import BannerMoc from '../assets/images/resources/main.png';
 
 const Banner = () => {
     const [open, setOpen] = useState({
@@ -21,7 +21,7 @@ const Banner = () => {
             <div
                 className="banner-one__bg"
                 style={{ backgroundImage: `url(${BannerBG})` }}
-            ></div>
+            />
             <div className="container">
                 {/* <ModalVideo */}
                 {/*  channel="youtube" */}
@@ -62,8 +62,8 @@ const Banner = () => {
                                 Pick what cuisine you are feeling, and let us
                                 handle the rest!
                             </p>
-                            <a href="#" className="thm-btn banner-one__btn">
-                                <span>Download App</span>
+                            <a href="" className="thm-btn banner-one__btn">
+                                <span>Coming Soon!</span>
                             </a>
                         </div>
                     </div>

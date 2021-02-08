@@ -37,7 +37,7 @@ const Services = () => {
                             <div className="service-one__inner">
                                 <div className="service-one__circle" />
                                 <div className="service-one__icon">
-                                    <i className="far fa-user-friends" />
+                                    <i className="apton-icon-development1" />
                                 </div>
                                 <h3>
                                     Compare with <br /> Friends and Groups
@@ -57,7 +57,7 @@ const Services = () => {
                             <div className="service-one__inner">
                                 <div className="service-one__circle" />
                                 <div className="service-one__icon">
-                                    <i className="apton-icon-development1" />
+                                    <i className="far fa-map-signs" />
                                 </div>
                                 <h3>Receive Nearby Restaurants</h3>
                                 <p>
