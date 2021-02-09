@@ -1441,7 +1441,6 @@ a:visited {
   -webkit-transition: -webkit-transform 0.7s ease;
   transition: -webkit-transform 0.7s ease;
   transition: transform 0.7s ease;
-  transition: transform 0.7s ease, -webkit-transform 0.7s ease;
 }
 
 .side-menu__block.active {

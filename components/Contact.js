@@ -11,8 +11,23 @@ const Contact = () => {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [message, setMessage] = useState('');
 
-    const submitContact = () => {
-        sendContactEmail(name, email, subject, phoneNumber, message);
+    const submitContact = async () => {
+        if (name && email && subject && phoneNumber && message) {
+            const emailRes = await sendContactEmail(
+                name,
+                email,
+                subject,
+                phoneNumber,
+                message
+            );
+            if (emailRes.status === 200 || emailRes.status === 204) {
+                alert('Sent! We will get in touch soon!');
+            } else {
+                alert('Error sending form, please try again later.');
+            }
+        } else {
+            alert('Please make sure all fields are filled!');
+        }
     };
 
     return (

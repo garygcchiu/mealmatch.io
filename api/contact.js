@@ -1,7 +1,13 @@
 import axios from 'axios';
 
-export function sendContactEmail(name, email, subject, phoneNumber, message) {
-    axios({
+export async function sendContactEmail(
+    name,
+    email,
+    subject,
+    phoneNumber,
+    message
+) {
+    return axios({
         method: 'post',
         url: 'https://mail.api.mealmatch.io/send',
         data: {
@@ -14,7 +20,5 @@ export function sendContactEmail(name, email, subject, phoneNumber, message) {
             Message: ${message}
             `,
         },
-    })
-        .then((res) => console.log('email res = ', res))
-        .catch((err) => console.log('email err = ', err));
+    });
 }
