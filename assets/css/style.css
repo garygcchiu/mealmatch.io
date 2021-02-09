@@ -1429,6 +1429,7 @@ a:visited {
 
 .side-menu__block {
   position: fixed;
+  display: none;
   top: 0;
   left: 0;
   width: 100vw;
@@ -1441,6 +1442,12 @@ a:visited {
   -webkit-transition: -webkit-transform 0.7s ease;
   transition: -webkit-transform 0.7s ease;
   transition: transform 0.7s ease;
+}
+
+@media (max-width: 1199px) {
+  .side-menu__block {
+    display: block;
+  }
 }
 
 .side-menu__block.active {
