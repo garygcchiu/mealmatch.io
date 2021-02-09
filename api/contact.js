@@ -1,17 +1,17 @@
+import axios from 'axios';
+
 export function sendContactEmail(name, email, subject, phoneNumber, message) {
-    fetch('https://mail.api.mealmatch.io/send', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: {
+    axios({
+        method: 'post',
+        url: 'https://mail.api.mealmatch.io/send',
+        data: {
             toEmails: ['mealmatchio@gmail.com'],
             subject: `MealMatch.io Contact: ${subject}`,
             message: `
-                Name: ${name}
-                Email: ${email}
-                Phone Number: ${phoneNumber}
-                Message: ${message}
+            Name: ${name}
+            Email: ${email}
+            Phone Number: ${phoneNumber}
+            Message: ${message}
             `,
         },
     })
