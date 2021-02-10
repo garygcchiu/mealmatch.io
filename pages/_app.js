@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
+import mailgo from 'mailgo';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/apton-icons.css';
@@ -23,6 +24,9 @@ export default function MyApp({ Component, pageProps }) {
             },
             []
         ).init();
+
+        // init mailgo
+        mailgo();
 
         // init react google-analytics
         ReactGA.initialize('UA-189001941-2');

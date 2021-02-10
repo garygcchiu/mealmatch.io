@@ -6,8 +6,8 @@ const MobileMenu = () => {
     return (
         <div className="side-menu__block">
             <div className="side-menu__block-overlay custom-cursor__overlay">
-                <div className="cursor"></div>
-                <div className="cursor-follower"></div>
+                <div className="cursor" />
+                <div className="cursor-follower" />
             </div>
             <div className="side-menu__block-inner ">
                 <div className="side-menu__top justify-content-end">
@@ -22,12 +22,16 @@ const MobileMenu = () => {
                 <nav className="mobile-nav__container">
                     <NavLinks />
                 </nav>
-                <div className="side-menu__sep"></div>
+                <div className="side-menu__sep" />
                 <div className="side-menu__content">
                     <p>
-                        <a href="mailto:needhelp@apton.com">
-                            help@mealmatch.io
-                        </a>{' '}
+                        <a
+                            href="#mailgo"
+                            data-address="mealmatchio"
+                            data-domain="gmail.com"
+                        >
+                            mealmatchio@gmail.com
+                        </a>
                         <br />
                         {/* <a href="tel:888-999-0000">888 999 0000</a> */}
                     </p>

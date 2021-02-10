@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-        PROD_S3_BUCKET: 'mealmatch2.io'
+        PROD_S3_BUCKET: 'mealmatch.io'
         SRC_FOLDER: 'out'
 
 phases:

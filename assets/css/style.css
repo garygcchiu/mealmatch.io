@@ -54,6 +54,10 @@ body {
   font-weight: 500;
 }
 
+.m-by {
+  display: none;
+}
+
 a:active,
 a:hover,
 a:focus,

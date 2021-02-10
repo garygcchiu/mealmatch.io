@@ -17,7 +17,7 @@ const Footer = () => {
                             <i className="apton-icon-mail" />
                         </div>
                         <form
-                            action="mailto:mealmatchio@gmail.com"
+                            action="https://mailto:mealmatchio@gmail.com"
                             className="mailchimp-one__form"
                         >
                             <input
