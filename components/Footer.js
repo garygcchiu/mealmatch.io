@@ -72,12 +72,9 @@ const Footer = () => {
                                             Explore
                                         </h3>
                                         <ul className="list-unstyled footer-widget__links-list">
-                                            <ScrollLink
-                                                to="home"
-                                                smooth={true}
-                                                duration={500}
-                                                className="text"
-                                            />
+                                            <li>
+                                                <a href={'#'}>Home</a>
+                                            </li>
                                             <li>
                                                 <a href="#">Download</a>
                                             </li>
@@ -85,7 +82,7 @@ const Footer = () => {
                                     </div>
                                     <div className="footer-widget">
                                         <h3 className="footer-widget__title">
-                                            Links
+                                            Legal
                                         </h3>
                                         <ul className="list-unstyled footer-widget__links-list">
                                             {/* <li> */}

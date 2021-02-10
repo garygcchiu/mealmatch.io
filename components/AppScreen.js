@@ -4,17 +4,17 @@ import SwiperCore, { Pagination } from 'swiper';
 import Swiper from 'react-id-swiper';
 import BlockTitle from './BlockTitle';
 
-import appImage2 from '../assets/images/app-shots/2.png';
-import appImage3 from '../assets/images/app-shots/3.png';
-import appImage4 from '../assets/images/app-shots/4.png';
-import appImage5 from '../assets/images/app-shots/5.png';
-import appImage6 from '../assets/images/app-shots/6.png';
-import appImage7 from '../assets/images/app-shots/7.png';
-import appImage8 from '../assets/images/app-shots/8.png';
-import appImage9 from '../assets/images/app-shots/9.png';
-import appImage10 from '../assets/images/app-shots/10.png';
-import appImage11 from '../assets/images/app-shots/11.png';
-import appImage12 from '../assets/images/app-shots/12.png';
+import appImage2 from '../assets/images/app-shots/2.webp';
+import appImage3 from '../assets/images/app-shots/3.webp';
+import appImage4 from '../assets/images/app-shots/4.webp';
+import appImage5 from '../assets/images/app-shots/5.webp';
+import appImage6 from '../assets/images/app-shots/6.webp';
+import appImage7 from '../assets/images/app-shots/7.webp';
+import appImage8 from '../assets/images/app-shots/8.webp';
+import appImage9 from '../assets/images/app-shots/9.webp';
+import appImage10 from '../assets/images/app-shots/10.webp';
+import appImage11 from '../assets/images/app-shots/11.webp';
+import appImage12 from '../assets/images/app-shots/12.webp';
 
 SwiperCore.use([Pagination]);
 
