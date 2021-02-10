@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import ModalVideo from 'react-modal-video';
 
 import BannerShape from '../assets/images/shapes/banner-shape-1-1.png';
 import BannerBG from '../assets/images/resources/banner-image-1-1.jpg';
@@ -23,15 +22,6 @@ const Banner = () => {
                 style={{ backgroundImage: `url(${BannerBG})` }}
             />
             <div className="container">
-                {/* <ModalVideo */}
-                {/*  channel="youtube" */}
-                {/*  isOpen={open.isOpen} */}
-                {/*  videoId="Kl5B6MBAntI" */}
-                {/*  onClose={() => setOpen({ isOpen: false })} */}
-                {/* /> */}
-                {/* <div onClick={openModal} className="banner-one__video video-popup"> */}
-                {/*  <i className="fa fa-play"></i> */}
-                {/* </div> */}
                 <div className="banner-one__moc">
                     <img
                         src={BannerMoc}
@@ -43,16 +33,7 @@ const Banner = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="banner-one__content">
-                            {/* <form */}
-                            {/*  className="banner-one__mc-form mc-form" */}
-                            {/*  data-url="MAILCHIMP__POPUP__FORM__URL" */}
-                            {/* > */}
-                            {/*  <input type="text" name="email" placeholder="Email address" /> */}
-                            {/*  <button type="submit" className="thm-btn banner-one__mc-btn"> */}
-                            {/*    <span>Free Trial</span> */}
-                            {/*  </button> */}
-                            {/* </form> */}
-                            <div className="mc-form__response"></div>
+                            <div className="mc-form__response" />
                             <h3>
                                 The Answer To <br />
                                 "What Do You <br />

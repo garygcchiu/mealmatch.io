@@ -4,7 +4,6 @@ import SwiperCore, { Pagination } from 'swiper';
 import Swiper from 'react-id-swiper';
 import BlockTitle from './BlockTitle';
 
-import appImage2 from '../assets/images/app-shots/2.webp';
 import appImage3 from '../assets/images/app-shots/3.webp';
 import appImage4 from '../assets/images/app-shots/4.webp';
 import appImage5 from '../assets/images/app-shots/5.webp';
@@ -95,22 +94,6 @@ const AppScreen = (props) => {
                         <div className="item">
                             <img src={appImage4} alt="Screenshot" />
                         </div>
-
-                        {/*<div className="item">*/}
-                        {/*    <img src={appImage2} alt="Screenshot" />*/}
-                        {/*</div>*/}
-                        {/*<div className="item">*/}
-                        {/*    <img src={appImage11} alt="Screenshot" />*/}
-                        {/*</div>*/}
-                        {/*<div className="item">*/}
-                        {/*    <img src={appImage3} alt="Screenshot" />*/}
-                        {/*</div>*/}
-                        {/*<div className="item">*/}
-                        {/*    <img src={appImage4} alt="Screenshot" />*/}
-                        {/*</div>*/}
-                        {/*<div className="item">*/}
-                        {/*    <img src={appImage5} alt="Screenshot" />*/}
-                        {/*</div>*/}
                     </Swiper>
                 </div>
             </Container>
