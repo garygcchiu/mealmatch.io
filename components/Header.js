@@ -20,7 +20,7 @@ const HeaderHome = (props) => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    });
+    }, []);
 
     const mobileMenu = () => {
         document
