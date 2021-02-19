@@ -1425,6 +1425,7 @@ a:visited {
 
 .side-menu__block {
   position: fixed;
+  visibility: hidden;
   top: 0;
   left: 0;
   width: 100vw;
@@ -1434,16 +1435,15 @@ a:visited {
   transform: translate(-100%, 0);
   -webkit-transform-origin: left center;
   transform-origin: left center;
-  -webkit-transition: -webkit-transform 0.7s ease;
-  transition: -webkit-transform 0.7s ease;
-  transition: transform 0.7s ease;
+  -webkit-transition: -webkit-transform 0.7s ease, visibility 0.7s linear;
+  transition: -webkit-transform 0.7s ease, visibility 0.7s linear;
+  transition: transform 0.7s ease, visibility 0.7s linear;
 }
-
-
 
 .side-menu__block.active {
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
+  visibility: visible;
 }
 
 .side-menu__block-overlay {
